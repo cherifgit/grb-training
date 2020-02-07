@@ -1,0 +1,8 @@
+hello-service:
+  ribbon:
+    ServerListRefreshInterval: 15000
+    eureka:
+      enabled: false
+    listOfServers: localhost:8884,localhost:8885,localhost:8886
+server:
+  port: 8890
